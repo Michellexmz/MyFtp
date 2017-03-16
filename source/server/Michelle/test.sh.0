@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for planet in "Mercury Venus Earth Mars Jupiters Saturn Uranus Neptune Plutp"
+do
+echo "$planet"
+done

@@ -1,0 +1,9 @@
+关于本目录
+==========
+本目录下包含server与client两个文件夹。其中包含服务器端与客户端的源码。
+
+#平台
+FTP文件传输系统是在Linux操作系统下运行。程序实现采用Python语言，使用PyQt4进行用户界面的设计。
+
+#编译
+本程序在Sublime中编写，直接使用Linux的Terminal进行python编译。

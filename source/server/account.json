@@ -1,0 +1,29 @@
+{
+  "Michelle": {
+    "rename": "NO", 
+    "passwd": "public", 
+    "mkdir": "YES", 
+    "upload": "YES", 
+    "download": "YES", 
+    "home": "/home/mixie/project/myftp/source/server/Michelle", 
+    "delete": "NO"
+  }, 
+  "root": {
+    "rename": "YES", 
+    "passwd": "root", 
+    "mkdir": "YES", 
+    "upload": "YES", 
+    "download": "YES", 
+    "home": "/home/mixie/project/myftp/source/server/root", 
+    "delete": "YES"
+  }, 
+  "anonymous": {
+    "rename": "NO", 
+    "passwd": "anonymous", 
+    "mkdir": "NO", 
+    "upload": "NO", 
+    "download": "YES", 
+    "home": "/home/mixie/project/myftp/source/server/anonymous", 
+    "delete": "NO"
+  }
+}

@@ -1,0 +1,27 @@
+关于本目录
+==========
+本目录中包含多个文件，主要文件为modify.exe,server.exe,clientGui.exe。
+
+#运行平台
+该FTP文件传输系统可以在Linux操作系统下运行。
+
+#测试方法
+```bash
+$./modify
+$./server
+$./clientGui %在新的终端上
+```
+
+0.在运行server.exe后，键入Y进入设置模式，键入N进入通信模式。
+1.FTP服务器默认端口号为9000，默认FTP路径为127.0.0.1。其中FTP路径可以修改成本地IP地址。因而运行clientGui.exe输入的host为127.0.0.1，输入port为9000。
+2.登录有两种方式，账户名登录有两个账户，账号root，密码root；账号Michelle，密码public；也可选择匿名登录。
+3.root账号所有权限开放，可进行所有的操作。Michelle账号无重命名与删除文件（夹）的权限。匿名登录只有下载的权限。
+4.服务器端进入设置模式后，键入help可获取帮助信息。
+		show    show account_name                显示账户属性
+		add     add account_name account_pwd     增加账户
+		del     del account_name                 删除账户属性
+		exit    exit the system                  退出系统
+		port    port port_number                 修改端口号
+		host    host host_name                   修改FTP路径
+		pwd     pwd account_name                 修改账户密码
+		attr    attr account_name                修改账户属性
